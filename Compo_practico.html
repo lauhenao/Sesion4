@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<style>
+    .body{background-color: rgb(208, 208, 230);
+    }
+</style>
+<body class= "body">
+    <h1>Registro de vacunación contra el COVID-19</h1>
+    <h4>A continuación ingrese sus datos</h4>
+    <h5>Sea Honesto con la información brindad</h5>
+
+    <form method="GET" action="">
+        <table>
+            <tr>
+                <td>Nombre</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Apellido</td>
+                <td><input type="text" maxlength="20" ></td>
+            </tr>
+            <td>Sexo</td>
+            <td><input type="radio" name="Sexo" id="" checked>Hombre
+            <input type="radio" name="Sexo" id=""checked>Mujer</td>
+            <tr>
+                <td>Correo</td>
+                <td><input type="email" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td>Contraseña</td>
+                <td><input type="password" maxlength="30" required></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" name="vig" >Declaro haber leído y acepto las condiciones generales del programa y la normativa sobre protección de datos</td>
+            </tr>
+            <tr>
+                <td><button type="submit">Enviar</button></td>
+            </tr>
+            
+        </table>
+    </form>
+</body>
+</html>
